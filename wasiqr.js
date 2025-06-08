@@ -58,7 +58,7 @@ router.get('/', async (req, res) => {
 				   let b64data = Buffer.from(data).toString('base64');
 				   let session = await Qr_Code_By_JTECH-WABOT.sendMessage(Qr_Code_By_JTECH-WABOT.user.id, { text: '' + b64data });
 	
-				   let JTECH-WABOT_TEXT = `
+				   let JTECH-WABOT_TEXT = `JTECH`
 *_Session Connected By JTECH*
 *_Made With 🤍_*
 ______________________________________
